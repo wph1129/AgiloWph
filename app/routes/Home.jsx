@@ -11,61 +11,8 @@ export default class Home extends React.Component {
   render() {
     return (
       <Layout>
-        <h5>Active Tickets</h5>
-        <ListGroup >
-          <ListGroupItem className="listItemTips">Item 1</ListGroupItem>
-          <ListGroupItem className="listItemTips">Item 2</ListGroupItem>
-        </ListGroup>
-        <Table striped bordered condensed hover className="table">
-          <thead>
-            <tr>
-              <th>Ticket</th>
-              <th>Summary</th>
-              <th>Component</th>
-              <th>Version</th>
-              <th>Milestone</th>
-              <th>Type</th>
-              <th>Owner</th>
-              <th>Status</th>
-              <th>Created</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Summary</td>
-              <td>Component</td>
-              <td>Version</td>
-              <td>Milestone</td>
-              <td>Type</td>
-              <td>Owner</td>
-              <td>Status</td>
-              <td>Created</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Summary</td>
-              <td>Component</td>
-              <td>Version</td>
-              <td>Milestone</td>
-              <td>Type</td>
-              <td>Owner</td>
-              <td>Status</td>
-              <td>Created</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Summary</td>
-              <td>Component</td>
-              <td>Version</td>
-              <td>Milestone</td>
-              <td>Type</td>
-              <td>Owner</td>
-              <td>Status</td>
-              <td>Created</td>
-            </tr>
-          </tbody>
-        </Table>
+        <h5>Welcome to AgiloWph for Scrum Pro</h5>
+        <p>You are logged into the system as the admin which allows you to configure AgiloWph to your needs. To find out how Agilo works you should read and follow the steps described in the Help/Guide. In this version of Agilo Pro a Demo Project has been configure and also some test users, their password is the same as the username.</p>
       </Layout>
     );
   }

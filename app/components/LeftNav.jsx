@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav, NavItem, Label } from 'react-bootstrap';
+import {LinkContainer} from 'react-router-bootstrap';
 import  './LeftNav.css';
 
 export default class LeftNav extends React.Component {
