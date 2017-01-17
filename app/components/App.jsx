@@ -12,7 +12,7 @@ export default class App extends React.Component {
     return (
       <Router history={hashHistory}>
         <Route path="/" component={Home}/>
-        <Route path="/report/1" component={Report}/>
+        <Route path="/report/:id" component={Report}/>
       </Router>
     );
   }
